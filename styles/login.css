@@ -1,0 +1,47 @@
+
+
+/* First container of the page. */
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+min-height: fit-content;
+min-width: fit-content;
+}
+/* Second container will center inputs and the submittable button. */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 200px;
+    background-image: linear-gradient(white, silver, white);
+    font-family: fantasy;
+    font-size: larger;
+    text-shadow: 2px 2px 5px red;
+    color: white;
+    box-shadow: 2px 5px rgb(174, 191, 248);
+    border-radius: 5%;
+}
+/* Username. */
+#affidavit {
+    padding: 10px;
+    font-size: large;
+}
+
+/* Password */
+#subpoena {
+    padding: 10px;
+    font-size: large;
+}
+
+/* This will set up the submittable button underneath the other inputs. Margin was included to give the top space.*/
+
+#summons {
+    background-color: #43a4e1;
+    border: 0px;
+    border-radius: 60px 60px 60px 60px;
+    padding: 10px;
+    width: 200px;
+   color: aliceblue;
+}
